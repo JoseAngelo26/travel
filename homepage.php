@@ -26,33 +26,21 @@
        <h1>Welcome to Marinduque!</h1>
        <p>Find the best place for you!</p>
     </div>
-    <?php
-    
-      $xml = simplexml_load_file('tours.xml');
-    ?>
- 
-     <div class="container">
+    <div class="container">
+        <div class="text-center">
+            <?php
+            $xml = simplexml_load_file('tours.xml');
 
-      
-      <?php
-      foreach ($xml->tour as $tour) {
-        $place = (string)$tour->name;
-        $description = (string)$tour->description;
-        echo '
-          <div class="tour ">
-            <a href="#" class="tour-title ">' . $place . '</a>
-            <div class="tour-details" style="display: none;">
-              <p>' . $description . '</p>
-            </div>
-          </div>';
-      }
-      ?>
+            foreach ($xml->tour as $tour) {
+                $name = $tour->name;
+                $description = $tour->description;
 
-      
-  
+                
+                echo "<h2 class='tour-title header'>$name</h2>";
+                echo "<p class='tour-details' style='display: none;'>$description</p>";
+            }
+            ?>
         </div>
-      </body>
-      </html>
-    
+    </div>
 </body>
 </html>
