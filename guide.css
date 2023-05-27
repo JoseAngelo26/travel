@@ -1,0 +1,153 @@
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .logo {
+    width: 250px;
+    cursor: pointer;
+  }
+  
+  .navbar-picture {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  
+  }
+  
+  .navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #94AF9F;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+
+.body{
+    overflow: scroll;
+}
+
+h1{
+    font-size: 70px;
+    padding-bottom: 5%;
+}
+
+.kus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ec{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.bl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.kusina ul li {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+  
+  }
+
+.church ul li {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+  
+  }
+
+  .park ul li {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+  
+  }
+
+  .events ul li {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+  
+  }
+
+.btn{
+    width: 200px;
+}
+
+.homebtn{
+    padding-top: 2%;
+    width: 200px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: white;
+    height: 100vh;
+}
+
+p{
+    padding-top: 2%;
+}
+
+li{
+    padding-top: 2%;
+}
