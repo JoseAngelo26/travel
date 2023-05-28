@@ -93,13 +93,6 @@ h1{
     width: 50%;
 }
 
-.gas{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 
 .kusina ul li {
     text-decoration: none;
@@ -133,16 +126,7 @@ h1{
   
   }
 
-  .gaspar ul li {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 30px;
-  
-  }
-
-
-  
+ 
 
 .btn{
     width: 200px;
